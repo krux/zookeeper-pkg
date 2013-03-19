@@ -17,7 +17,6 @@ Version: @version@
 Section: misc
 Priority: optional
 Architecture: all
-Depends: sun-java6-jre
 Maintainer: Apache Software Foundation <dev@zookeeper.apache.org>
 Description: ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
 Distribution: development

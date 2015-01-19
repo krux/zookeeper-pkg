@@ -1,3 +1,8 @@
+Release 3.4.5-2 - 2015-01-19
+
+Krux bumping version to hopefully fix issues with apt-get "size mismatch".
+
+
 Release 3.4.5 - 2012-09-30
 
 Backward compatible changes:

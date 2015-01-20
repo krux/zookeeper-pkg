@@ -24,6 +24,13 @@
 # Short-Description:	Apache ZooKeeper server
 ### END INIT INFO
 
+echo
+echo "\033[31mDo not use the zookeeper init script!\033[0m We run zookeeper via exhibitor."
+echo "See: kzookeeper::exhibitor, the kzookeeper_exhibitor supervisor service,"
+echo "and http://localhost:8181/exhibitor/v1/ui/index.html"
+echo
+exit 1
+
 set -e
 
 # /etc/init.d/zookeeper: start and stop the Apache ZooKeeper daemon
